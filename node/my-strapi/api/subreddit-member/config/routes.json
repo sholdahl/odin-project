@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/subreddit-members",
+      "handler": "subreddit-member.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subreddit-members/count",
+      "handler": "subreddit-member.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subreddit-members/:id",
+      "handler": "subreddit-member.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/subreddit-members",
+      "handler": "subreddit-member.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/subreddit-members/:id",
+      "handler": "subreddit-member.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/subreddit-members/:id",
+      "handler": "subreddit-member.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

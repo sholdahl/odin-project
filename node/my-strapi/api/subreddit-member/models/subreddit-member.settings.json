@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subreddit_members",
+  "info": {
+    "name": "Subreddit Member"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "memberCount": {
+      "type": "integer",
+      "required": true,
+      "min": 0
+    },
+    "dateTime": {
+      "type": "datetime",
+      "required": true
+    },
+    "subreddit": {
+      "model": "subreddit",
+      "via": "subreddit_members"
+    }
+  }
+}

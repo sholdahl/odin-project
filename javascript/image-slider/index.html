@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slider-container img-slider">
+        <!-- slides -->
+        <div class="slide-wrapper img-slider slide-1 active" data-slide="1">
+            <div class="content-wrapper img-slider">
+                <div class="slide-title light img-slider">
+                    Title Example
+                </div>
+                <div class="slide-subtitle light img-slider">
+                    This is an example of what a subtitle might look like!
+                </div>
+                <a href="#" class="slide-btn img-slider">Learn More</a>
+            </div>
+        </div>
+        <div class="slide-wrapper img-slider slide-2" data-slide="2">
+            <div class="content-wrapper img-slider">
+                <div class="slide-title light img-slider">
+                    Title 2 Example
+                </div>
+                <div class="slide-subtitle light img-slider">
+                    This is an example of what the second subtitle might look like!
+                </div>
+                <a href="#" class="slide-btn img-slider">Learn More</a>
+            </div>
+        </div>
+        <div class="slide-wrapper img-slider slide-3" data-slide="3">
+            <div class="content-wrapper img-slider">
+                <div class="slide-title light img-slider">
+                    Title 3 Example
+                </div>
+                <div class="slide-subtitle light img-slider">
+                    This is an example of what the second subtitle might look like!
+                </div>
+                <a href="#" class="slide-btn img-slider">Learn More</a>
+            </div>
+        </div>
+        <div class="slide-wrapper img-slider slide-4" data-slide="4">
+            <div class="content-wrapper img-slider">
+                <div class="slide-title light img-slider">
+                    Title 4 Example
+                </div>
+                <div class="slide-subtitle light img-slider">
+                    This is an example of what the second subtitle might look like!
+                </div>
+                <a href="#" class="slide-btn img-slider">Learn More</a>
+            </div>
+        </div>
+        <div class="slide-wrapper img-slider slide-5" data-slide="5">
+            <div class="content-wrapper img-slider">
+                <div class="slide-title light img-slider">
+                    Title 5 Example
+                </div>
+                <div class="slide-subtitle light img-slider">
+                    This is an example of what the second subtitle might look like!
+                </div>
+                <a href="#" class="slide-btn img-slider">Learn More</a>
+            </div>
+        </div>
+
+        <!-- slide controls -->
+        <div class="slide-controls img-slider">
+            <div class="next-slide slide-controller img-slider">
+                <div class="arrow-wrapper img-slider">
+                    <img class="arrow img-slider" src="assets/right-arrow.svg" alt="">
+                </div>
+            </div>
+            <div class="last-slide slide-controller img-slider">
+                <div class="arrow-wrapper img-slider">
+                    <img class="arrow img-slider" src="assets/left-arrow.svg" alt="">
+                </div>
+            </div>
+            <div class="slide-selector img-slider">
+                <div class="selector-wrapper img-slider">
+                    <img src="assets/circle-empty.svg" alt="" class="img-slider img-selector slide-1-btn selected" data-slide="1">
+                    <img src="assets/circle-empty.svg" alt="" class="img-slider img-selector slide-2-btn" data-slide="2">
+                    <img src="assets/circle-empty.svg" alt="" class="img-slider img-selector slide-3-btn" data-slide="3">
+                    <img src="assets/circle-empty.svg" alt="" class="img-slider img-selector slide-4-btn" data-slide="4">
+                    <img src="assets/circle-empty.svg" alt="" class="img-slider img-selector slide-5-btn" data-slide="5">
+                </div>
+            </div>
+            <div class="slide-selector img-slider">
+                <div class="selector-wrapper img-slider">
+                    <img src="assets/circle-filled.svg" alt="" class="img-slider img-selector slide-1-btn" data-slide="1">
+                    <img src="assets/circle-filled.svg" alt="" class="img-slider img-selector slide-2-btn inactive-slide-selector" data-slide="2">
+                    <img src="assets/circle-filled.svg" alt="" class="img-slider img-selector slide-3-btn inactive-slide-selector" data-slide="3">
+                    <img src="assets/circle-filled.svg" alt="" class="img-slider img-selector slide-4-btn inactive-slide-selector" data-slide="4">
+                    <img src="assets/circle-filled.svg" alt="" class="img-slider img-selector slide-5-btn inactive-slide-selector" data-slide="5">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

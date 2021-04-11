@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stocks",
+  "info": {
+    "name": "stock"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ticker": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "prices": {
+      "via": "stock",
+      "collection": "price"
+    }
+  }
+}

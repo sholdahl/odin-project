@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-Down Menu Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-nav-wrapper">
+            <div class="navbar-brand">
+                <img src="logo-social.jpg" alt="" class="logo-img">
+            </div>
+            <div class="navbar-toggler">
+                <img src="hamburger.svg" alt="menu toggler" class="hamburger" sizes="" srcset="">
+            </div>
+            <div class="close-mobile-wrapper hidden-mobile">
+                <div class="close-mobile">X</div>
+            </div>
+            <ul class="navbar-nav hidden-mobile">
+                <div class="nav-items-wrapper">
+                    <li class="navbar-item display-nav"><a class="nav-link" href="#">Link 1</a></li>
+                    <li class="navbar-item display-nav"><a class="nav-link" href="#">Link 2</a></li>
+                    <li class="navbar-item display-nav"><a class="nav-link" href="#">Link 3</a></li>
+                    <li class="navbar-item display-nav navbar-drop-down">
+                        <a class="nav-link drop-down" href="#">Drop-Down Link</a>
+                        <ul class="navbar-subnav hidden">
+                            <div class="nav-item-wrapper">
+                                <li class="subnav-item"> <a href="#" class="nav-link">Link</a></li>
+                                <li class="subnav-item"> <a href="#" class="nav-link">Link</a></li>
+                                <li class="subnav-item"> <a href="#" class="nav-link">Link</a></li>
+                                <li class="subnav-item"> <a href="#" class="nav-link">Link</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

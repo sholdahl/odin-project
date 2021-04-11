@@ -1,0 +1,17 @@
+.search-area{
+    margin: auto;
+}
+
+.search-input{
+    border-color: #17a2b8;
+}
+
+h1{
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #333;
+}
+
+button:focus, input:focus{
+    box-shadow: none !important;
+}
